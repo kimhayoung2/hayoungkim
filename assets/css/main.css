@@ -2644,23 +2644,23 @@ input, select, textarea {
 						font-variant: normal;
 						font-family: 'Font Awesome 5 Free';
 						font-weight: 900;
-						font-size: 18px;
+						font-size: 22px;
 						text-rendering: auto;
-						line-height: 1;
+						line-height: 11;
 						text-transform: none !important;
 						text-decoration: none;
 						content: '\f0c9';
 						color: #fff;
 						background: rgba(128, 136, 144, 0.5);
-						border-radius: 10em;
+						border-radius: 1em;
 						text-align: center;
 						position: absolute;
 						left: 0.5em;
 						top: 0.5em;
 						display: block;
 						width: 5em;
-						height: 2.25em;
-						line-height: 2.25em;
+						height: 2.2em;
+						line-height: 2.2em;
 					}
 
 
