@@ -2185,6 +2185,18 @@ input, select, textarea {
 						color: #f95007;
 				}
 
+	.dropnav{
+		position: relative;
+		display: none;
+		width: inherit;
+		font-size: 0.8em;
+		padding: 0.5em 0.4em 0.5em 1.5em;
+	}
+
+		.dropdown:hover .dropnav{
+			display: block;
+		}
+
 /* Footer */
 
 	#footer {
@@ -2336,6 +2348,7 @@ input, select, textarea {
  	left: 15%;
   	transform: translate(0%, -50%);
 }
+
 
 /*Gallery*/
 @keyframes slideshow {
