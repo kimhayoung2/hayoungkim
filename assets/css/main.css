@@ -122,7 +122,7 @@ input, select, textarea {
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #333;
+			color: #FDE582;
 		}
 
 	h2 {
@@ -131,13 +131,13 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #888;
-			font-family: 'Baloo Tamma', 'Permanent Marker', 'Caveat Brush', 'Source Sans Pro', sans-serif;
+			color: #13CA79;
+			font-family: 'Baloo Tamma', 'Caveat Brush', 'Source Sans Pro', sans-serif;
 			font-weight: 500;
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: #13CA79;
 				font-weight: bold;
 			}
 
@@ -159,7 +159,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 300;
-		color: #666;
+		color: #13CA79;
 	}
 
 	em, i {
@@ -1948,7 +1948,7 @@ input, select, textarea {
 		font-size: 90%;
 		text-decoration: none;
 		padding: 0.75em 0.75em 0.75em 0.75em;
-		background-color: #7cb518;
+		background-color: #13CA79;
 		opacity: 90%;
 		border: 0;
 		cursor: pointer;
@@ -1967,7 +1967,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: #2188E5;
 		}
 
 		input[type="button"]:active,
@@ -1975,7 +1975,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #50d9d6;
+			background-color: #FDE582;
 		}
 
 /* Item */
@@ -2067,7 +2067,7 @@ input, select, textarea {
 		}
 
 			#header .top a:hover{
-				color: #e5e509;
+				color: #FDE582;
 			}
 
 		#header .bottom {
@@ -2096,7 +2096,7 @@ input, select, textarea {
 			}
 
 				#header .icons a:hover {
-					color: #e5e059;
+					color: #FDE582;
 				}
 
 	#logo {
@@ -2118,7 +2118,7 @@ input, select, textarea {
 			position: relative;
 			display: block;
 			font-size: 0.6em;
-			color: rgba(255, 255, 255, 0.5);
+			color: #FFFFFD;
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 		}
@@ -2174,15 +2174,15 @@ input, select, textarea {
 				}
 
 				#nav ul li a.active span:before {
-					color: #f95007;
+					color: #C03B29;
 				}
 
 				#nav ul li a.hover {
-					color: #e5e509;
+					color: #FDE582;
 				}
 
 				#nav ul li a.active {
-						color: #f95007;
+						color: #C03B29;
 				}
 
 	.dropnav{
@@ -2276,9 +2276,9 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #e5e059;
+				background-color: #FDE582;
 				background-image: url("../../images/faceup1.jpg");
-				color: #177e89;
+				color: #2188E5;
 			}
 
 			#main > section.two {
