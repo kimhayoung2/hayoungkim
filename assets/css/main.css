@@ -2276,6 +2276,14 @@ input, select, textarea {
 				background-color: #f5fafa;
 			}
 
+			#main > section.six {
+				background-color: #ecf1f1;
+			}
+
+			#main > section.seven {
+				background-color: #e8edec;
+			}
+
 @-moz-keyframes overlay {
 		0% {
 			opacity: 0;
@@ -2328,39 +2336,110 @@ input, select, textarea {
   	transform: translate(0%, -50%);
 }
 
+/* Gallery*/
+.slideshowContainer {
+  position: relative;
+  overflow: hidden;
+  margin: 50px 0 75px;
+  width: 100%;
+  height: 500px;
+}
 
-/*Gallery*/
-@keyframes slideshow {
-	10% {left: 0;}
-	20% {left: 0;}
-	30% {left: -100%;}
-	40% {left: -100%;}
-	50% {left: -200%;}
-	60% {left: -200%;}
-	70% {left: -300%;}
-	80% {left: -300%;}
-	90% {left: -400%;}
-	100% {left: -400%}
+.imageSlides {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: -1;
 }
-#slideshow {
-	overflow:hidden;
-	width: 90%;
-	margin: 5px auto; 
-	border: 5px solid transparent;
-	border-radius: 10px;
+
+/* add 'visible' class via Javascript */
+.visible {
+  opacity: 1;
 }
-#slideshow figure img {
-	width:20%;
-	float:left;
+
+.slideshowArrow {
+  font-size: 7em;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
 }
-#slideshow figure {
-	position:relative;
-	width:500%;
-	margin:0;
-	left:0;
-	text-align:left;
-	animation:30s slideshow infinite;
+
+.slideshowArrow:hover {
+  opacity: 0.75;
 }
+
+#leftArrow {
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#rightArrow {
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.slideshowCircles {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Caption text */
+.caption {
+	color: inherit;
+    font-size: 1em;
+	padding: 8px 12px;
+    position: absolute;
+	bottom: 8px;
+	width: 100%;
+    text-align: center;
+    display: relative;
+    transition: background-color 0.6s ease;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: inherit;
+	font-size: 100%;
+	padding: 8px 12px;
+	position: absolute;
+    top: 0;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.circle {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: solid 2px rgba(255, 255, 255, 0.5);
+  transition: 1s ease-in-out;
+}
+
+/*End of Gallery*/
 
 @media screen and (max-width: 767px) {
 	#slideshow {
@@ -2387,6 +2466,7 @@ input, select, textarea {
 		width: fit-content;
 				margin: 1em auto;
 	}*/
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
